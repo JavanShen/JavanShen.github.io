@@ -21,7 +21,7 @@
   <entry>
     <title>测试</title>
     <url>/2020/04/15/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="一篇测试文章"><a href="#一篇测试文章" class="headerlink" title="一篇测试文章"></a>一篇测试文章</h1><p>​    <a href="www.bilibili.com">哔哩哔哩</a> <em>斜体</em> <strong>粗体</strong>   </p>
+    <content><![CDATA[<h1 id="一篇测试文章"><a href="#一篇测试文章" class="headerlink" title="一篇测试文章"></a>一篇测试文章</h1><p>​    <a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a> <em>斜体</em> <strong>粗体</strong>   </p>
 <p>​    第二个</p>
 ]]></content>
       <categories>
