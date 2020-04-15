@@ -24,8 +24,51 @@
     <content><![CDATA[<h1 id="如何用github和hexo搭建自己的博客"><a href="#如何用github和hexo搭建自己的博客" class="headerlink" title="如何用github和hexo搭建自己的博客"></a>如何用github和hexo搭建自己的博客</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​    折腾了几天总算是把自己的博客搞出来了,第一篇博客就来谈谈怎么用<strong>GitHub</strong>加<strong>Hexo</strong>来搭建博客,分享一下自己的心得</p>
 <p>​    首先把<a href="https://www.bilibili.com/video/BV1cW411A7Jx/" target="_blank" rel="noopener">视频</a>送上,讲的挺详细的,不想看文章的可以直接看视频.  </p>
 <p>​    接下里开始详细步骤讲解:</p>
-<p>​    </p>
-<p>​    </p>
+<p>​        段落缩进测试</p>
+<p>​        代码测试:</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> helo=<span class="string">"nihao"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(helo);</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"nihao"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​        表格测试:</p>
+<table>
+<thead>
+<tr>
+<th>学生编号</th>
+<th>学生姓名</th>
+<th>学生年龄</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0001</td>
+<td>小红</td>
+<td>13</td>
+</tr>
+<tr>
+<td>0002</td>
+<td>小绿</td>
+<td>16</td>
+</tr>
+<tr>
+<td>0003</td>
+<td>小紫</td>
+<td>14</td>
+</tr>
+</tbody></table>
+<ul>
+<li>无序列表</li>
+<li>再来</li>
+<li>把孩子</li>
+</ul>
+<ol>
+<li>有序列表</li>
+<li>二二</li>
+<li>大拿</li>
+<li>四九四</li>
+</ol>
+<p>$$<br>公式块<br>$$</p>
+<p>​        脚注<a href="这是一个脚注">^1</a></p>
+<blockquote>
+<p>应用</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>博客</category>
