@@ -19,16 +19,19 @@
 ]]></content>
   </entry>
   <entry>
-    <title>测试</title>
-    <url>/2020/04/15/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="一篇测试文章"><a href="#一篇测试文章" class="headerlink" title="一篇测试文章"></a>一篇测试文章</h1><p>​    <a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a> <em>斜体</em> <strong>粗体</strong>   </p>
-<p>​    第二个</p>
+    <title>博客搭建</title>
+    <url>/2020/04/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<h1 id="如何用github和hexo搭建自己的博客"><a href="#如何用github和hexo搭建自己的博客" class="headerlink" title="如何用github和hexo搭建自己的博客"></a>如何用github和hexo搭建自己的博客</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​    折腾了几天总算是把自己的博客搞出来了,第一篇博客就来谈谈怎么用<strong>GitHub</strong>加<strong>Hexo</strong>来搭建博客,分享一下自己的心得</p>
+<p>​    首先把<a href="https://www.bilibili.com/video/BV1cW411A7Jx/" target="_blank" rel="noopener">视频</a>送上,讲的挺详细的,不想看文章的可以直接看视频.  </p>
+<p>​    接下里开始详细步骤讲解:</p>
+<p>​    </p>
+<p>​    </p>
 ]]></content>
       <categories>
-        <category>testone</category>
+        <category>博客</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>GitHub</tag>
       </tags>
   </entry>
 </search>
