@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-13T15:44:31.535Z</updated>
+  <updated>2020-04-15T02:56:55.776Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="https://javanshen.github.io/2020/04/15/%E6%B5%8B%E8%AF%95/"/>
+    <id>https://javanshen.github.io/2020/04/15/%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-04-15T02:41:10.000Z</published>
+    <updated>2020-04-15T02:56:55.776Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一篇测试文章"><a href="#一篇测试文章" class="headerlink" title="一篇测试文章"></a>一篇测试文章</h1><p>​    <a href="www.bilibili.com">哔哩哔哩</a> <em>斜体</em> <strong>粗体</strong>   </p><p>​    第二个</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;一篇测试文章&quot;&gt;&lt;a href=&quot;#一篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;一篇测试文章&quot;&gt;&lt;/a&gt;一篇测试文章&lt;/h1&gt;&lt;p&gt;​    &lt;a href=&quot;www.bilibili.com&quot;&gt;哔哩哔哩&lt;/a&gt; &lt;em&gt;斜体&lt;/em&gt; &lt;
+      
+    
+    </summary>
+    
+    
+      <category term="testone" scheme="https://JavanShen.github.io/categories/testone/"/>
+    
+    
+      <category term="test" scheme="https://JavanShen.github.io/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
