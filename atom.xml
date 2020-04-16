@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-15T16:28:57.856Z</updated>
+  <updated>2020-04-16T08:52:36.812Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客搭建</title>
-    <link href="https://javanshen.github.io/2020/04/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>https://javanshen.github.io/2020/04/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <title>如何用Markdown去写一篇文章</title>
+    <link href="https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/"/>
+    <id>https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-15T02:41:10.000Z</published>
-    <updated>2020-04-15T16:28:57.856Z</updated>
+    <updated>2020-04-16T08:52:36.812Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,17 @@
       
         
         
-          &lt;h1 id=&quot;如何用github和hexo搭建自己的博客&quot;&gt;&lt;a href=&quot;#如何用github和hexo搭建自己的博客&quot; class=&quot;headerlink&quot;
+          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;　　&lt;strong&gt;Markdown&lt;/strong&gt;是一种&lt;a
         
       
     
     </summary>
     
     
-      <category term="博客" scheme="https://JavanShen.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="markdown" scheme="https://JavanShen.github.io/categories/markdown/"/>
     
     
-      <category term="GitHub" scheme="https://JavanShen.github.io/tags/GitHub/"/>
+      <category term="语法" scheme="https://JavanShen.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
   </entry>
   

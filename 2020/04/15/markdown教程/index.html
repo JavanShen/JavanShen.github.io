@@ -13,7 +13,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    博客搭建 |  OneBoluo
+    如何用Markdown去写一篇文章 |  OneBoluo
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -41,7 +41,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="post-博客搭建" class="article article-type-post" itemscope
+  <article id="post-markdown教程" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -49,7 +49,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  博客搭建
+  如何用Markdown去写一篇文章
 </h1>
  
 
@@ -58,12 +58,12 @@
 
     
     <div class="article-meta">
-      <a href="/2020/04/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="article-date">
+      <a href="/2020/04/15/markdown%E6%95%99%E7%A8%8B/" class="article-date">
   <time datetime="2020-04-15T02:41:10.000Z" itemprop="datePublished">2020-04-15</time>
 </a>
       
   <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a>
+    <a class="article-category-link" href="/categories/markdown/">markdown</a>
   </div>
 
       
@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">180</span>
+            <span class="post-count">865</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">3 min</span>
         </span>
     </span>
 </div>
@@ -107,55 +107,108 @@
       
 
       
-      <h1 id="如何用github和hexo搭建自己的博客"><a href="#如何用github和hexo搭建自己的博客" class="headerlink" title="如何用github和hexo搭建自己的博客"></a>如何用github和hexo搭建自己的博客</h1><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>​    折腾了几天总算是把自己的博客搞出来了,第一篇博客就来谈谈怎么用<strong>GitHub</strong>加<strong>Hexo</strong>来搭建博客,分享一下自己的心得</p>
-<p>​    首先把<a href="https://www.bilibili.com/video/BV1cW411A7Jx/" target="_blank" rel="noopener">视频</a>送上,讲的挺详细的,不想看文章的可以直接看视频.  </p>
-<p>​    接下里开始详细步骤讲解:</p>
-<p>​        段落缩进测试</p>
-<p>​        代码测试:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> helo=<span class="string">"nihao"</span>;</span><br><span class="line"><span class="built_in">console</span>.log(helo);</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">"nihao"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>　　<strong>Markdown</strong>是一种<a href="https://zh.wikipedia.org/wiki/轻量级标记语言" target="_blank" rel="noopener">轻量级标记语言</a>,可以让人们专注于写文章而不是排版上,而且还可以转换成各种其他格式.</p>
+<p>　　由于<strong>Markdown</strong>的轻量化、易读易写特性，并且对于<em>图片，图表、数学式</em>都有支持，当前许多网站都广泛使用<strong>Markdown</strong>来撰写帮助文档或是用于<a href="https://zh.wikipedia.org/wiki/网络论坛" target="_blank" rel="noopener">论坛</a>上发表消息。如<a href="https://zh.wikipedia.org/wiki/GitHub" target="_blank" rel="noopener">GitHub</a>、<a href="https://zh.wikipedia.org/wiki/Reddit" target="_blank" rel="noopener">Reddit</a>、<a href="https://zh.wikipedia.org/wiki/Diaspora" target="_blank" rel="noopener">Diaspora</a>、<a href="https://zh.wikipedia.org/wiki/Stack_Exchange" target="_blank" rel="noopener">Stack Exchange</a>、<a href="https://zh.wikipedia.org/wiki/OpenStreetMap" target="_blank" rel="noopener">OpenStreetMap</a> 、<a href="https://zh.wikipedia.org/wiki/SourceForge" target="_blank" rel="noopener">SourceForge</a>、<a href="https://zh.wikipedia.org/wiki/简书" target="_blank" rel="noopener">简书</a>等，甚至还能被使用来撰写<a href="https://zh.wikipedia.org/wiki/電子書" target="_blank" rel="noopener">电子书</a>。</p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line">....</span><br></pre></td></tr></table></figure>
 
-<p>​        表格测试:</p>
-<table>
-<thead>
-<tr>
-<th>学生编号</th>
-<th>学生姓名</th>
-<th>学生年龄</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>0001</td>
-<td>小红</td>
-<td>13</td>
-</tr>
-<tr>
-<td>0002</td>
-<td>小绿</td>
-<td>16</td>
-</tr>
-<tr>
-<td>0003</td>
-<td>小紫</td>
-<td>14</td>
-</tr>
-</tbody></table>
+<blockquote>
+<p>用<strong>#+空格+标题</strong>的形式实现,几个#代表几级标题,总共有<strong>六级标题</strong></p>
+</blockquote>
+<p><span id="html"></span></p>
+<h3 id="字体样式"><a href="#字体样式" class="headerlink" title="字体样式"></a>字体样式</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体*</span></span><br><span class="line"><span class="strong">**粗体**</span></span><br><span class="line"><span class="strong">***粗斜体**</span>*</span><br><span class="line">~~删除线~~</span><br><span class="line"> <span class="xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>下划线<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h3 id="链接与图片"><a href="#链接与图片" class="headerlink" title="链接与图片"></a>链接与图片</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">网站名</span>](<span class="link">网址链接</span>)</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">网址链接</span>&gt;</span></span> <span class="xml"><span class="comment">&lt;!--一种快捷方法,直接输入网址--&gt;</span></span></span><br><span class="line"></span><br><span class="line">![<span class="string">图片名</span>](<span class="link">本地图片位置或网络图片地址</span>)</span><br><span class="line"></span><br><span class="line">[<span class="string">网站名字</span>][<span class="symbol">a</span>] <span class="xml"><span class="comment">&lt;!--通过引用的方法--&gt;</span></span></span><br><span class="line">[<span class="symbol">a</span>]:<span class="link">网站链接</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>　　链接和图片除了1,4行那种普通方法,还可以用如6,7行所示的引用方法.这种方法的好处就是编写时界面整洁  ( <em>[a]:网站链接</em> 可以放在任意位置,在成品中是不会显示出来的)</p>
+</blockquote>
+<p><a href="https://www.bilibili.com" target="_blank" rel="noopener">哔哩哔哩</a></p>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+ </span>无序列表</span><br><span class="line"><span class="bullet">+ </span>无序列表</span><br><span class="line"> +无序列表的子列表</span><br><span class="line"> </span><br><span class="line"><span class="bullet">1. </span>有序列表</span><br><span class="line"><span class="bullet">2. </span>有序列表</span><br><span class="line"> 1.有序列表的子列表</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>　　列表分<strong>无序列表</strong>和<strong>有序列表</strong>,无序列表为一个加号<strong>+</strong>或减号<strong>-</strong>或星号<strong>*** + **空格</strong> + <strong>文字</strong>,然后就可以直接换行它会自动生成一个小圆点在前面,同时你也可以在最前面加上空格来做出列表的子集</p>
+</blockquote>
 <ul>
-<li>无序列表</li>
-<li>再来</li>
-<li>把孩子</li>
+<li><p>列表</p>
+</li>
+<li><p>列表</p>
+<ul>
+<li>子列表</li>
+</ul>
+</li>
 </ul>
 <ol>
 <li>有序列表</li>
-<li>二二</li>
-<li>大拿</li>
-<li>四九四</li>
+<li>有序列表<ol>
+<li>有序列表的子列表</li>
 </ol>
-<p>$$<br>公式块<br>$$</p>
-<p>​        脚注<a href="这是一个脚注">^1</a></p>
+</li>
+</ol>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 引用内容</span></span><br><span class="line">&gt;&gt; 下一级引用</span><br></pre></td></tr></table></figure>
+
 <blockquote>
-<p>应用</p>
+<p>引用内容</p>
+<blockquote>
+<p>下一级引用</p>
 </blockquote>
-<p>  拳脚空格</p>
+</blockquote>
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">`代码区块`</span></span><br><span class="line"></span><br><span class="line">​<span class="code">```</span>`java</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>　　代码块有两种,一种就是前面一直在用的<strong>代码块</strong>,为四个<strong>`</strong>符号( 键盘左上角的那个键 ) + <strong>代码语言</strong>,还有一种就是<strong>代码区块</strong></p>
+</blockquote>
+<p><code>代码区块</code></p>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>表格用手打比较累,一般用快捷键生成</p>
+</blockquote>
+<h3 id="段落与缩进"><a href="#段落与缩进" class="headerlink" title="段落与缩进"></a>段落与缩进</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;nbsp</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>两个空格</strong>+<strong>回车</strong>可以另起一个段落,<strong>缩进</strong>有很多种方式在这里推荐一种方式:切换到<strong>圆角状态</strong>后打<strong>两个空格</strong></p>
+</blockquote>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">***</span></span><br><span class="line">---</span><br><span class="line"><span class="emphasis">___</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>三个以上的星号<strong>***或减号</strong>-<strong>或下划线</strong>_**</p>
+</blockquote>
+<hr>
+<h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">脚注[^a]</span><br><span class="line">[<span class="symbol">^a</span>]:<span class="link">这是一个脚注</span></span><br></pre></td></tr></table></figure>
+
+<p>脚注<a href="这是一个脚注">^a</a></p>
+<h3 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h3><p>　　<strong>Markdown</strong>语法是支持<strong>html</strong>语法的,所以有些效果可以用html来展出出来,上面<a href="#html">字体样式</a>里的下划线便是一个例子,而且还可以在html里写<strong>行内样式</strong></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">sytle</span>=<span class="string">"border: 1px solid black"</span>&gt;</span></span>行内样式<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<p><span style="border: 1px solid black">行内样式</span></p>
+<h3 id="编辑器推荐"><a href="#编辑器推荐" class="headerlink" title="编辑器推荐"></a>编辑器推荐</h3><p>　　最后来推荐一下写markdown的<strong>编辑器,</strong>市面上有很多,很多<strong>代码编辑器</strong>都支持markdown语法,像<em>vscode,atom,sublime</em>这些都是可以用来写markdown的,不过我在这里推荐<a href="https://typora.io/" target="_blank" rel="noopener"><strong>Typora</strong></a>这个编辑器,有以下几个优点.</p>
+<ol>
+<li>外观简洁</li>
+<li>软件占用小</li>
+<li>功能齐全</li>
+<li>可以导出各种样式</li>
+<li>快捷键丰富</li>
+</ol>
 
       
       <!-- reward -->
@@ -210,14 +263,14 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://javanshen.github.io/2020/04/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%AD%E6%B3%95/" rel="tag">语法</a></li></ul>
 
 
     </footer>
