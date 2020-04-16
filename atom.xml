@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-16T08:52:36.812Z</updated>
+  <updated>2020-04-16T09:07:56.989Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -21,17 +21,19 @@
     <link href="https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/"/>
     <id>https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-15T02:41:10.000Z</published>
-    <updated>2020-04-16T08:52:36.812Z</updated>
+    <updated>2020-04-16T09:07:56.989Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;　　&lt;strong&gt;Markdown&lt;/strong&gt;是一种&lt;a
-        
-      
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;　　&lt;strong&gt;Markdown&lt;/strong&gt;是一种&lt;a href=&quot;https://zh.wikipedia.org/wiki/轻量级标记语言&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;轻量级标记语言&lt;/a&gt;,可以让人们专注于写文章而不是排版上,而且还可以转换成各种其他格式.&lt;/p&gt;
+&lt;p&gt;　　由于&lt;strong&gt;Markdown&lt;/strong&gt;的轻量化、易读易写特性，并且对于&lt;em&gt;图片，图表、数学式&lt;/em&gt;都有支持，当前许多网站都广泛使用&lt;strong&gt;Markdown&lt;/strong&gt;来撰写帮助文档或是用于&lt;a href=&quot;https://zh.wikipedia.org/wiki/网络论坛&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;论坛&lt;/a&gt;上发表消息。如&lt;a href=&quot;https://zh.wikipedia.org/wiki/GitHub&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;、&lt;a href=&quot;https://zh.wikipedia.org/wiki/Reddit&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Reddit&lt;/a&gt;、&lt;a href=&quot;https://zh.wikipedia.org/wiki/Diaspora&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Diaspora&lt;/a&gt;、&lt;a href=&quot;https://zh.wikipedia.org/wiki/Stack_Exchange&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Stack Exchange&lt;/a&gt;、&lt;a href=&quot;https://zh.wikipedia.org/wiki/OpenStreetMap&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;OpenStreetMap&lt;/a&gt; 、&lt;a href=&quot;https://zh.wikipedia.org/wiki/SourceForge&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SourceForge&lt;/a&gt;、&lt;a href=&quot;https://zh.wikipedia.org/wiki/简书&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;简书&lt;/a&gt;等，甚至还能被使用来撰写&lt;a href=&quot;https://zh.wikipedia.org/wiki/電子書&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;电子书&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;# 一级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;## 二级标题&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;....&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;用&lt;strong&gt;#+空格+标题&lt;/strong&gt;的形式实现,几个#代表几级标题,总共有&lt;strong&gt;六级标题&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span id=&quot;html&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;字体样式&quot;&gt;&lt;a href=&quot;#字体样式&quot; class=&quot;headerlink&quot; title=&quot;字体样式&quot;&gt;&lt;/a&gt;字体样式&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;emphasis&quot;&gt;*斜体*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;strong&quot;&gt;**粗体**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;strong&quot;&gt;***粗斜体**&lt;/span&gt;*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;~~删除线~~&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;u&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;下划线&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;u&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
