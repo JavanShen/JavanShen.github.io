@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-16T09:07:56.989Z</updated>
+  <updated>2020-04-16T09:09:59.961Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/"/>
     <id>https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-15T02:41:10.000Z</published>
-    <updated>2020-04-16T09:07:56.989Z</updated>
+    <updated>2020-04-16T09:09:59.961Z</updated>
     
     <summary type="html">
     
@@ -32,8 +32,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;用&lt;strong&gt;#+空格+标题&lt;/strong&gt;的形式实现,几个#代表几级标题,总共有&lt;strong&gt;六级标题&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;span id=&quot;html&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&quot;字体样式&quot;&gt;&lt;a href=&quot;#字体样式&quot; class=&quot;headerlink&quot; title=&quot;字体样式&quot;&gt;&lt;/a&gt;字体样式&lt;/h3&gt;&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;emphasis&quot;&gt;*斜体*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;strong&quot;&gt;**粗体**&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;strong&quot;&gt;***粗斜体**&lt;/span&gt;*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;~~删除线~~&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; &lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;u&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;下划线&lt;span class=&quot;xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;u&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
