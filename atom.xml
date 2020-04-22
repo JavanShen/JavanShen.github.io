@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>OneBoluo</title>
+  <title>一堆菠萝</title>
   
-  <subtitle>个人博客</subtitle>
+  <subtitle>一块菠萝</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-21T07:07:56.163Z</updated>
+  <updated>2020-04-22T09:32:54.086Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谈谈js中的this</title>
+    <link href="https://javanshen.github.io/2020/04/22/js%E4%B8%AD%E7%9A%84this/"/>
+    <id>https://javanshen.github.io/2020/04/22/js%E4%B8%AD%E7%9A%84this/</id>
+    <published>2020-04-22T09:30:03.000Z</published>
+    <updated>2020-04-22T09:32:54.086Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="JavaScript" scheme="https://JavanShen.github.io/categories/JavaScript/"/>
+    
+    
+      <category term="this" scheme="https://JavanShen.github.io/tags/this/"/>
+    
+  </entry>
   
   <entry>
     <title>css的弹性布局</title>
