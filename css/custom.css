@@ -112,6 +112,7 @@
 .article-entry .article-more-link {
   transform: rotate(0);
   transform-origin: center;
+  border: none;
 }
 .article-entry .article-more-link:hover {
   border: none;
