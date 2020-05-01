@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>一堆菠萝</title>
+  <title>Apine</title>
   
   <subtitle>一块菠萝</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-04-22T09:32:54.086Z</updated>
+  <updated>2020-05-01T04:19:11.762Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -17,13 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>谈谈js中的this</title>
-    <link href="https://javanshen.github.io/2020/04/22/js%E4%B8%AD%E7%9A%84this/"/>
-    <id>https://javanshen.github.io/2020/04/22/js%E4%B8%AD%E7%9A%84this/</id>
+    <title>js中的Array数组</title>
+    <link href="https://javanshen.github.io/2020/04/22/Array%E6%95%B0%E7%BB%84/"/>
+    <id>https://javanshen.github.io/2020/04/22/Array%E6%95%B0%E7%BB%84/</id>
     <published>2020-04-22T09:30:03.000Z</published>
-    <updated>2020-04-22T09:32:54.086Z</updated>
+    <updated>2020-05-01T04:19:11.762Z</updated>
     
     <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;　　Array类型( 数组 )是&lt;a href=&quot;https://blog.fundebug.com/2017/11/22/details-about-javascript-and-ecmascript/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ECMAScript&lt;/a&gt;中常用的一种&lt;strong&gt;引用类型&lt;/strong&gt;,相比于其他语言,ECMAScript中的Array类型有以下一些&lt;strong&gt;特性&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数组中每一项都可以保存任意类型的数据&lt;/li&gt;
+&lt;li&gt;数组的大小可以动态调整,会随着数据的添加而自动增长&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;h2 id=&quot;如何创建一个数组&quot;&gt;&lt;a href=&quot;#如何创建一个数组&quot; class=&quot;headerlink&quot; title=&quot;如何创建一个数组&quot;&gt;&lt;/a&gt;如何创建一个数组&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;有两种方式: &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;使用Array构造函数&quot;&gt;&lt;a href=&quot;#使用Array构造函数&quot; class=&quot;headerlink&quot; title=&quot;使用Array构造函数&quot;&gt;&lt;/a&gt;使用Array构造函数&lt;/h3&gt;&lt;p&gt;&lt;code&gt;var animal = new Array();&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
@@ -31,7 +43,7 @@
       <category term="JavaScript" scheme="https://JavanShen.github.io/categories/JavaScript/"/>
     
     
-      <category term="this" scheme="https://JavanShen.github.io/tags/this/"/>
+      <category term="数组" scheme="https://JavanShen.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
@@ -69,7 +81,7 @@
     <link href="https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/"/>
     <id>https://javanshen.github.io/2020/04/15/markdown%E6%95%99%E7%A8%8B/</id>
     <published>2020-04-15T02:41:10.000Z</published>
-    <updated>2020-04-16T09:09:59.961Z</updated>
+    <updated>2020-04-27T06:49:24.827Z</updated>
     
     <summary type="html">
     
