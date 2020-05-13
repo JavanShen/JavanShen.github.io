@@ -152,7 +152,7 @@
 
 <h2 id="弹性布局的一些特性"><a href="#弹性布局的一些特性" class="headerlink" title="弹性布局的一些特性"></a>弹性布局的一些特性</h2><blockquote>
 <p>设置弹性布局后,弹性元素的<strong>float</strong>,<strong>clear</strong>和<strong>vertical-align</strong>将失效.</p>
-<p>弹性布局内不存在<strong>边界重叠</strong></p>
+<p>弹性布局内不存在<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing" target="_blank" rel="noopener"><strong>边界重叠</strong></a></p>
 </blockquote>
 <br>
 
@@ -607,6 +607,17 @@
       </categories>
       <tags>
         <tag>数组</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>js中的正则表达式</title>
+    <url>/2020/05/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>正则表达式</tag>
       </tags>
   </entry>
 </search>

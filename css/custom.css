@@ -109,6 +109,10 @@
 .toc-list-item a:hover {
   color: #325f83;
 }
+::selection {
+  background-color: #ff4040;
+  color: #fff;
+}
 .article-entry .article-more-link {
   transform: rotate(0);
   transform-origin: center;
