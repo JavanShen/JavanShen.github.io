@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://javanshen.github.io/"/>
-  <updated>2020-05-10T08:19:02.855Z</updated>
+  <updated>2020-12-24T15:33:18.987Z</updated>
   <id>https://javanshen.github.io/</id>
   
   <author>
@@ -17,13 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>js中的正则表达式</title>
-    <link href="https://javanshen.github.io/2020/05/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    <id>https://javanshen.github.io/2020/05/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</id>
-    <published>2020-05-10T08:15:59.000Z</published>
-    <updated>2020-05-10T08:19:02.855Z</updated>
+    <title>谈谈js的内存</title>
+    <link href="https://javanshen.github.io/2020/12/24/%E8%B0%88%E8%B0%88js%E7%9A%84%E5%86%85%E5%AD%98/"/>
+    <id>https://javanshen.github.io/2020/12/24/%E8%B0%88%E8%B0%88js%E7%9A%84%E5%86%85%E5%AD%98/</id>
+    <published>2020-12-24T02:22:20.000Z</published>
+    <updated>2020-12-24T15:33:18.987Z</updated>
     
     <summary type="html">
+    
+      &lt;h2 id=&quot;内存生命周期&quot;&gt;&lt;a href=&quot;#内存生命周期&quot; class=&quot;headerlink&quot; title=&quot;内存生命周期&quot;&gt;&lt;/a&gt;内存生命周期&lt;/h2&gt;&lt;p&gt;不管什么程序语言，内存生命周期基本是一致的：  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分配你所需要的内存&lt;/li&gt;
+&lt;li&gt;使用分配到的内存（读、写）&lt;/li&gt;
+&lt;li&gt;不需要时将其释放\归还&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所有语言第二部分都是明确的。第一和第三部分在底层语言中是明确的，但在像JavaScript这些高级语言中，大部分都是隐含的。&lt;/p&gt;
     
     </summary>
     
@@ -31,16 +39,18 @@
       <category term="JavaScript" scheme="https://JavanShen.github.io/categories/JavaScript/"/>
     
     
-      <category term="正则表达式" scheme="https://JavanShen.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+      <category term="内存" scheme="https://JavanShen.github.io/tags/%E5%86%85%E5%AD%98/"/>
+    
+      <category term="原理" scheme="https://JavanShen.github.io/tags/%E5%8E%9F%E7%90%86/"/>
     
   </entry>
   
   <entry>
-    <title>js中的Array数组</title>
-    <link href="https://javanshen.github.io/2020/04/22/Array%E6%95%B0%E7%BB%84/"/>
-    <id>https://javanshen.github.io/2020/04/22/Array%E6%95%B0%E7%BB%84/</id>
-    <published>2020-04-22T09:30:03.000Z</published>
-    <updated>2020-05-01T04:19:11.762Z</updated>
+    <title>js中的数组</title>
+    <link href="https://javanshen.github.io/2020/12/22/js%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84/"/>
+    <id>https://javanshen.github.io/2020/12/22/js%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84/</id>
+    <published>2020-12-22T07:43:41.000Z</published>
+    <updated>2020-12-24T15:32:14.821Z</updated>
     
     <summary type="html">
     
@@ -49,12 +59,10 @@
 &lt;li&gt;数组中每一项都可以保存任意类型的数据&lt;/li&gt;
 &lt;li&gt;数组的大小可以动态调整,会随着数据的添加而自动增长&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
-
 &lt;h2 id=&quot;如何创建一个数组&quot;&gt;&lt;a href=&quot;#如何创建一个数组&quot; class=&quot;headerlink&quot; title=&quot;如何创建一个数组&quot;&gt;&lt;/a&gt;如何创建一个数组&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;有两种方式: &lt;/p&gt;
+&lt;p&gt;有两种方式:&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;使用Array构造函数&quot;&gt;&lt;a href=&quot;#使用Array构造函数&quot; class=&quot;headerlink&quot; title=&quot;使用Array构造函数&quot;&gt;&lt;/a&gt;使用Array构造函数&lt;/h3&gt;&lt;p&gt;&lt;code&gt;var animal = new Array();&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;使用Array构造函数&quot;&gt;&lt;a href=&quot;#使用Array构造函数&quot; class=&quot;headerlink&quot; title=&quot;使用Array构造函数&quot;&gt;&lt;/a&gt;使用Array构造函数&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;var animal &amp;#x3D; new Array();&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -71,7 +79,7 @@
     <link href="https://javanshen.github.io/2020/04/18/%E5%BC%B9%E6%80%A7%E5%B8%83%E5%B1%80/"/>
     <id>https://javanshen.github.io/2020/04/18/%E5%BC%B9%E6%80%A7%E5%B8%83%E5%B1%80/</id>
     <published>2020-04-18T14:16:53.000Z</published>
-    <updated>2020-05-13T08:01:52.292Z</updated>
+    <updated>2020-11-11T08:12:20.764Z</updated>
     
     <summary type="html">
     
@@ -90,8 +98,6 @@
     
     
       <category term="布局" scheme="https://JavanShen.github.io/tags/%E5%B8%83%E5%B1%80/"/>
-    
-      <category term="flex" scheme="https://JavanShen.github.io/tags/flex/"/>
     
   </entry>
   

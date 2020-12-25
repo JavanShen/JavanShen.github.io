@@ -80,7 +80,7 @@
     
     
     
-    <article id="post-正则表达式" class="article article-type-post" itemscope
+    <article id="post-谈谈js的内存" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -88,8 +88,8 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/05/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"
-    >js中的正则表达式</a> 
+  <a class="article-title" href="/2020/12/24/%E8%B0%88%E8%B0%88js%E7%9A%84%E5%86%85%E5%AD%98/"
+    >谈谈js的内存</a> 
 </h2>
  
 
@@ -98,8 +98,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/05/10/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" class="article-date">
-  <time datetime="2020-05-10T08:15:59.000Z" itemprop="datePublished">2020-05-10</time>
+      <a href="/2020/12/24/%E8%B0%88%E8%B0%88js%E7%9A%84%E5%86%85%E5%AD%98/" class="article-date">
+  <time datetime="2020-12-24T02:22:20.000Z" itemprop="datePublished">2020-12-24</time>
 </a>
       
   <div class="article-category">
@@ -120,6 +120,15 @@
       
 
       
+      <h2 id="内存生命周期"><a href="#内存生命周期" class="headerlink" title="内存生命周期"></a>内存生命周期</h2><p>不管什么程序语言，内存生命周期基本是一致的：  </p>
+<ol>
+<li>分配你所需要的内存</li>
+<li>使用分配到的内存（读、写）</li>
+<li>不需要时将其释放\归还</li>
+</ol>
+<p>所有语言第二部分都是明确的。第一和第三部分在底层语言中是明确的，但在像JavaScript这些高级语言中，大部分都是隐含的。</p>
+      
+      <a class="article-more-link" href="/2020/12/24/%E8%B0%88%E8%B0%88js%E7%9A%84%E5%86%85%E5%AD%98/">阅读更多...</a>
       
       
       <!-- reward -->
@@ -132,7 +141,7 @@
     <footer class="article-footer">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" rel="tag">正则表达式</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%86%85%E5%AD%98/" rel="tag">内存</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E7%90%86/" rel="tag">原理</a></li></ul>
 
 
     </footer>
@@ -149,7 +158,7 @@
 
 </article>
     
-    <article id="post-Array数组" class="article article-type-post" itemscope
+    <article id="post-js中的数组" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -157,8 +166,8 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/04/22/Array%E6%95%B0%E7%BB%84/"
-    >js中的Array数组</a> 
+  <a class="article-title" href="/2020/12/22/js%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84/"
+    >js中的数组</a> 
 </h2>
  
 
@@ -167,8 +176,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/04/22/Array%E6%95%B0%E7%BB%84/" class="article-date">
-  <time datetime="2020-04-22T09:30:03.000Z" itemprop="datePublished">2020-04-22</time>
+      <a href="/2020/12/22/js%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84/" class="article-date">
+  <time datetime="2020-12-22T07:43:41.000Z" itemprop="datePublished">2020-12-22</time>
 </a>
       
   <div class="article-category">
@@ -194,14 +203,12 @@
 <li>数组中每一项都可以保存任意类型的数据</li>
 <li>数组的大小可以动态调整,会随着数据的添加而自动增长</li>
 </ul>
-<br>
-
 <h2 id="如何创建一个数组"><a href="#如何创建一个数组" class="headerlink" title="如何创建一个数组"></a>如何创建一个数组</h2><blockquote>
-<p>有两种方式: </p>
+<p>有两种方式:</p>
 </blockquote>
-<h3 id="使用Array构造函数"><a href="#使用Array构造函数" class="headerlink" title="使用Array构造函数"></a>使用Array构造函数</h3><p><code>var animal = new Array();</code></p>
+<h3 id="使用Array构造函数"><a href="#使用Array构造函数" class="headerlink" title="使用Array构造函数"></a>使用Array构造函数</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var animal &#x3D; new Array();</span><br></pre></td></tr></table></figure>
       
-      <a class="article-more-link" href="/2020/04/22/Array%E6%95%B0%E7%BB%84/">阅读更多...</a>
+      <a class="article-more-link" href="/2020/12/22/js%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84/">阅读更多...</a>
       
       
       <!-- reward -->
@@ -292,7 +299,7 @@
     <footer class="article-footer">
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/flex/" rel="tag">flex</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B8%83%E5%B1%80/" rel="tag">布局</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B8%83%E5%B1%80/" rel="tag">布局</a></li></ul>
 
 
     </footer>
