@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-3a3e428e"],{9703:function(t,n,e){"use strict";e.r(n);var a=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("img",{staticStyle:{width:"70%"},attrs:{src:t.bg,alt:"不好!你想要的页面找不到了"}})},c=[],u=e("9aec"),r=e.n(u),s={name:"NotFound",data:function(){return{bg:r.a}}},i=s,o=e("2877"),l=Object(o["a"])(i,a,c,!1,null,null,null);n["default"]=l.exports},"9aec":function(t,n,e){t.exports=e.p+"img/404.ce2c595f.svg"}}]);
+//# sourceMappingURL=chunk-3a3e428e.0f9e1795.js.map
